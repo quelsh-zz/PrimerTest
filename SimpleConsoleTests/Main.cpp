@@ -6,7 +6,15 @@ int main()
 {
 
 	cout << "Hello World!" << endl;
-	WaitForInput();
+
+	string* input = new string();
+	WaitForInput(input);
+	char buffer[512];
+
+	sprintf(buffer, "The user typed %s", input->c_str());
+	cout << buffer << endl;
+	
+	KeepWindowOpen();
 
 	return 0;
 }

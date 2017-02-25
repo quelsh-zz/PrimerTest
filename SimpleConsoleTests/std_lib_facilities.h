@@ -8,4 +8,15 @@
 
 using namespace std;
 
-inline void WaitForInput() { char ch; cin >> ch; }
+inline void WaitForInput(string* const input) 
+{
+	string ch; 
+	cin >> ch; 
+	*input = ch;
+}
+
+inline void KeepWindowOpen()
+{
+	char dc; // don't care
+	cin >> dc;
+}
