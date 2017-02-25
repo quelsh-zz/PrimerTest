@@ -65,9 +65,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Source\Animal.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="std_lib_facilities.h" />
+    <ClInclude Include="Include\Animal.h" />
+    <ClInclude Include="Include\std_lib_facilities.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

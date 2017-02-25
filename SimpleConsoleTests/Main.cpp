@@ -1,10 +1,10 @@
-#include "std_lib_facilities.h"
+#include "Include/std_lib_facilities.h"
+#include "Include/Animal.h"
 
 using namespace std;
 
 int main()
 {
-
 	cout << "Hello World!" << endl;
 
 	string* input = new string();
